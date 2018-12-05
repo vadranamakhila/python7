@@ -6,4 +6,4 @@ for i, n in enumerate(b):
 	else:
 		oddA += n
 
-print(evenB + " " + oddB)
+print(evenA + " " + oddA)
