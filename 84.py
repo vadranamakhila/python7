@@ -1,2 +1,2 @@
-k=raw_input()
-print(ord(k))
+r=raw_input()
+print(ord(r))
