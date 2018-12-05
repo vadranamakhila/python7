@@ -1,5 +1,5 @@
-def do_stuff(input):x,y = [int(p) for p in input.split(" ")]
-	print(y-x)
+def do_stuff(input):m,n = [int(i) for i in input.split(" ")]
+	print(n-m)
 while True:
   try:
     value = raw_input()
