@@ -1,9 +1,9 @@
-a = raw_input().rstrip()
+b = raw_input().rstrip()
 evenA = oddA = ''
-for j, k in enumerate(a):
-	if j & 1 == 0:
-		evenA += k
+for i, n in enumerate(b):
+	if i & 1 == 0:
+		evenA += n
 	else:
-		oddA += k
+		oddA += n
 
-print(evenA + " " + oddA)
+print(evenB + " " + oddB)
