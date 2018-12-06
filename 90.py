@@ -1,11 +1,11 @@
 def sort(values):
-	for s in range(len(values)):		
-		for p in range(s, len(values)):			
-			if (values[s] > values[p]):
-				temp = values[s]
-				values[s] = values[p]
-				values[p] = temp
-a = raw_input().rstrip()
-aList = list(a)
-sort(aList)
-print("".join(aList))
+	for i in range(len(values)):		
+		for q in range(i, len(values)):			
+			if (values[i] > values[q]):
+				temp = values[i]
+				values[i] = values[q]
+				values[q] = temp
+b = raw_input().rstrip()
+bList = list(b)
+sort(bList)
+print("".join(bList))
