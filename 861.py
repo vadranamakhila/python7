@@ -1,10 +1,10 @@
-def isIsogram(a):
+def isIsogram(b):
 	charMap = {}
-	for k in a:
-		if k in charMap:
+	for i in b:
+		if i in charMap:
 			return False
 		else:
-			charMap[k] = 1
+			charMap[i] = 1
 	return True
-a = raw_input().rstrip()
-print("Yes" if isIsogram(a) else "No")
+b = raw_input().rstrip()
+print("Yes" if isIsogram(b) else "No")
